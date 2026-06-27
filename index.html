@@ -27,32 +27,37 @@
       </a>
 
       <nav class="nav-links" aria-label="Navigation principale">
-        <a href="#produits">Produits</a>
-        <a href="#avantages">Avantages</a>
-        <a href="#commande">Commande</a>
+        <a href="#produits" data-i18n="navProducts">Produits</a>
+        <a href="#avantages" data-i18n="navBenefits">Avantages</a>
+        <a href="#commande" data-i18n="navOrder">Commande</a>
       </nav>
 
-      <a class="header-cta" href="#commande">Commander</a>
+      <div class="header-actions">
+        <button class="lang-toggle" id="language-toggle" type="button" aria-label="Changer la langue">
+          العربية
+        </button>
+        <a class="header-cta" href="#commande" data-i18n="headerCta">Commander</a>
+      </div>
     </header>
 
     <main>
       <section class="hero" id="accueil">
         <div class="hero-copy">
-          <p class="eyebrow">Offre speciale ete</p>
-          <h1>Reste frais partout avec nos ventilateurs portables.</h1>
-          <p class="hero-text">
+          <p class="eyebrow" data-i18n="heroEyebrow">Offre speciale ete</p>
+          <h1 data-i18n="heroTitle">Reste frais partout avec nos ventilateurs portables.</h1>
+          <p class="hero-text" data-i18n="heroText">
             Mini ventilateur rechargeable, ventilateur de cou, modele de bureau
             silencieux et packs economie. Commande rapide, confirmation par
             telephone et livraison a domicile.
           </p>
           <div class="hero-actions">
-            <a class="primary-link" href="#commande">Je veux commander</a>
-            <a class="secondary-link" href="#produits">Voir les modeles</a>
+            <a class="primary-link" href="#commande" data-i18n="heroPrimary">Je veux commander</a>
+            <a class="secondary-link" href="#produits" data-i18n="heroSecondary">Voir les modeles</a>
           </div>
           <div class="trust-row" aria-label="Avantages principaux">
-            <span>Paiement a la reception</span>
-            <span>Livraison 24-72h selon la ville</span>
-            <span>Prix a partir de 89 DH</span>
+            <span data-i18n="trustPayment">Paiement a la reception</span>
+            <span data-i18n="trustDelivery">Livraison 24-72h selon la ville</span>
+            <span data-i18n="trustPrice">Prix a partir de 89 DH</span>
           </div>
         </div>
 
@@ -62,16 +67,16 @@
       </section>
 
       <section class="promo-band" aria-label="Promotion">
-        <strong>-15% sur le deuxieme produit</strong>
-        <span>Pack famille disponible</span>
-        <span>Support WhatsApp avant commande</span>
+        <strong data-i18n="promoDiscount">-15% sur le deuxieme produit</strong>
+        <span data-i18n="promoPack">Pack famille disponible</span>
+        <span data-i18n="promoSupport">Support WhatsApp avant commande</span>
       </section>
 
       <section class="section" id="produits">
         <div class="section-heading">
-          <p class="eyebrow">Multi produits</p>
-          <h2>Choisis le ventilateur adapte a ton besoin.</h2>
-          <p>
+          <p class="eyebrow" data-i18n="productsEyebrow">Multi produits</p>
+          <h2 data-i18n="productsTitle">Choisis le ventilateur adapte a ton besoin.</h2>
+          <p data-i18n="productsText">
             Des produits legers, faciles a livrer et simples a vendre pendant
             les periodes de chaleur.
           </p>
@@ -89,9 +94,9 @@
             />
           </div>
           <div class="benefit-content">
-            <p class="eyebrow">Avantages FreshFan</p>
-            <h2>Une sensation de fraicheur qui rassure tout de suite.</h2>
-            <p>
+            <p class="eyebrow" data-i18n="benefitsEyebrow">Avantages FreshFan</p>
+            <h2 data-i18n="benefitsTitle">Une sensation de fraicheur qui rassure tout de suite.</h2>
+            <p data-i18n="benefitsText">
               Les couleurs douces, l'air frais et le format portable donnent au
               client une impression de calme, de confiance et de confort avant
               meme de commander.
@@ -100,69 +105,69 @@
             <div class="benefit-grid">
               <article>
                 <span>01</span>
-                <strong>Confort rapide</strong>
-                <p>Un souffle frais aide a se sentir mieux quand la chaleur fatigue.</p>
+                <strong data-i18n="benefitOneTitle">Confort rapide</strong>
+                <p data-i18n="benefitOneText">Un souffle frais aide a se sentir mieux quand la chaleur fatigue.</p>
               </article>
               <article>
                 <span>02</span>
-                <strong>Facile a transporter</strong>
-                <p>Compact pour le bureau, la chambre, le sac ou les sorties.</p>
+                <strong data-i18n="benefitTwoTitle">Facile a transporter</strong>
+                <p data-i18n="benefitTwoText">Compact pour le bureau, la chambre, le sac ou les sorties.</p>
               </article>
               <article>
                 <span>03</span>
-                <strong>Rechargeable et economique</strong>
-                <p>Pratique au quotidien, sans installation et sans stress.</p>
+                <strong data-i18n="benefitThreeTitle">Rechargeable et economique</strong>
+                <p data-i18n="benefitThreeText">Pratique au quotidien, sans installation et sans stress.</p>
               </article>
             </div>
 
-            <a class="benefit-cta" href="#commande">Commander maintenant</a>
+            <a class="benefit-cta" href="#commande" data-i18n="benefitCta">Commander maintenant</a>
           </div>
         </div>
       </section>
 
       <section class="order-section" id="commande">
         <div class="order-copy">
-          <p class="eyebrow">Commande</p>
-          <h2>Remplis le formulaire, on te confirme par telephone.</h2>
-          <p>
+          <p class="eyebrow" data-i18n="orderEyebrow">Commande</p>
+          <h2 data-i18n="orderTitle">Remplis le formulaire, on te confirme par telephone.</h2>
+          <p data-i18n="orderText">
             Choisis un produit, ajoute tes informations et envoie la demande.
             Le message WhatsApp sera prepare automatiquement.
           </p>
           <ul class="order-list">
-            <li>Nom et prenom pour confirmer la commande</li>
-            <li>Numero de telephone pour l'appel de confirmation</li>
-            <li>Ville pour verifier le delai de livraison</li>
+            <li data-i18n="orderPointOne">Nom et prenom pour confirmer la commande</li>
+            <li data-i18n="orderPointTwo">Numero de telephone pour l'appel de confirmation</li>
+            <li data-i18n="orderPointThree">Ville pour verifier le delai de livraison</li>
           </ul>
         </div>
 
         <form class="order-form" id="order-form">
           <label>
-            Nom
-            <input id="last-name" name="lastName" type="text" placeholder="Ex: El Amrani" required />
+            <span data-i18n="formLastName">Nom</span>
+            <input id="last-name" name="lastName" type="text" placeholder="Ex: El Amrani" data-i18n-placeholder="lastNamePlaceholder" required />
           </label>
 
           <label>
-            Prenom
-            <input id="first-name" name="firstName" type="text" placeholder="Ex: Yassine" required />
+            <span data-i18n="formFirstName">Prenom</span>
+            <input id="first-name" name="firstName" type="text" placeholder="Ex: Yassine" data-i18n-placeholder="firstNamePlaceholder" required />
           </label>
 
           <label>
-            Numero de telephone
-            <input id="phone" name="phone" type="tel" placeholder="Ex: 06 12 34 56 78" required />
+            <span data-i18n="formPhone">Numero de telephone</span>
+            <input id="phone" name="phone" type="tel" placeholder="Ex: 06 12 34 56 78" data-i18n-placeholder="phonePlaceholder" required />
           </label>
 
           <label>
-            Ville
-            <input id="city" name="city" type="text" placeholder="Ex: Casablanca" required />
+            <span data-i18n="formCity">Ville</span>
+            <input id="city" name="city" type="text" placeholder="Ex: Casablanca" data-i18n-placeholder="cityPlaceholder" required />
           </label>
 
           <label class="full">
-            Produit souhaite
+            <span data-i18n="formProduct">Produit souhaite</span>
             <select id="selected-product" name="product" required></select>
           </label>
 
-          <button class="checkout-button full" type="submit">Envoyer ma commande WhatsApp</button>
-          <p class="form-note">Change le numero WhatsApp dans <code>app.js</code> avant de lancer les ventes.</p>
+          <button class="checkout-button full" type="submit" data-i18n="formSubmit">Envoyer ma commande WhatsApp</button>
+          <p class="form-note" data-i18n="formNote">Change le numero WhatsApp dans <code>app.js</code> avant de lancer les ventes.</p>
         </form>
       </section>
     </main>
